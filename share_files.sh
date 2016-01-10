@@ -40,4 +40,4 @@ else
 fi
 
 # Copy the files to the server.
-scp $files $server_name:$dest
+scp "$files" "$server_name:$dest"

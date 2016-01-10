@@ -34,8 +34,8 @@ readonly tmpfile="$tmpdir/$filename"
 readonly public_path="$public_base_path/$filename"
 
 # Take and share the screenshot.
-import $tmpfile
-scp $tmpfile $remote_path
-rm $tmpfile
-echo $public_path | xsel --clipboard --input
+import "$tmpfile"
+scp "$tmpfile" "$remote_path"
+rm "$tmpfile"
+echo "$public_path" | xsel --clipboard --input
 echo "URL copied to clipboard: $public_path"
