@@ -40,3 +40,9 @@ Dependencies: `ImageMagick`
 `./share_ss`
 
 `./share_ss -k`
+
+
+## Random hostname
+
+Randomly picks an hostname from predefined list of common hostnames. Run on
+boot.
