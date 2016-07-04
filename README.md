@@ -2,6 +2,13 @@
 
 Some usefull scripts.
 
+## Encrypted backup
+
+`encrypted_backup.sh`
+
+Save gpg encrypted tar archive to a Hard Drive and to a server.
+
+
 ## Share files
 
 `share_files.sh`
