@@ -38,7 +38,7 @@ Secret files:
 Take a screenshot from selected area, copy it to the server and add image URL
 to the clipboard.
 
-Dependencies: `ImageMagick`
+Dependencies: `ImageMagick`, `xsel`
 
 | Flag | Description                     |
 | ---- | ------------------------------- |
